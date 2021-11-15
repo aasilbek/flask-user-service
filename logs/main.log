@@ -1,0 +1,9 @@
+2021-09-14 22:27:31,170 INFO: Microblog startup [in /home/asilbek/Desktop/python/flaks_learning/mega_tutorial_part_1/./app/__init__.py:85]
+2021-09-14 22:28:27,715 INFO: Microblog startup [in /home/asilbek/Desktop/python/flaks_learning/mega_tutorial_part_1/./app/__init__.py:85]
+2021-09-14 22:28:27,755 ERROR: Unhabdled excepton [in /home/asilbek/Desktop/python/flaks_learning/mega_tutorial_part_1/./app/tasks.py:49]
+Traceback (most recent call last):
+  File "/home/asilbek/Desktop/python/flaks_learning/mega_tutorial_part_1/./app/tasks.py", line 36, in export_posts
+    "timestamp":post.timestamp.isoformant()+'Z'})
+AttributeError: 'datetime.datetime' object has no attribute 'isoformant'
+2021-09-14 22:29:37,595 INFO: Microblog startup [in /home/asilbek/Desktop/python/flaks_learning/mega_tutorial_part_1/./app/__init__.py:85]
+2021-09-14 22:38:37,514 INFO: Microblog startup [in /home/asilbek/Desktop/python/flaks_learning/mega_tutorial_part_1/./app/__init__.py:85]

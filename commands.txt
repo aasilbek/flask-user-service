@@ -1,0 +1,3 @@
+flask db init 
+flask db migrate  -> to create migrations
+flask db upgrade  -> to migrate
